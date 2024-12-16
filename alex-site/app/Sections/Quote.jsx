@@ -9,8 +9,9 @@ export function SVGMaskEffectDemo() {
         revealText={
           <p
             className="max-w-4xl mx-auto text-white text-center  text-4xl font-bold">
-            <span className="text-6xl">"</span> If all else fails the scratch
-            and sniff will never lead you astray.<span className="text-6xl">"</span> - Alex L Dory
+            <span className="text-6xl">"</span>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, placeat sapiente! Corporis deleniti dolorum exercitationem saepe totam sit fugit laborum eum facere!
+            <span className="text-6xl">"</span><br /><br />  - Alex L Dory
           </p>
         }
         className="h-[20rem] rounded-md">
