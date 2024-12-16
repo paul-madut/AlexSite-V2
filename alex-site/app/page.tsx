@@ -10,7 +10,7 @@ import Footer from "./Sections/Footer";
 
 export default function Home() {
   return (
-      <body className="min-h[100vh] max-w-screen my-0 mx-auto overflow-x-hidden bg-black">
+      <body className="min-h[100vh] max-w-screen my-0 mx-auto overflow-x-hidden bg-bgblack">
     <div className="">
 
 

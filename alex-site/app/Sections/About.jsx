@@ -3,7 +3,7 @@ import { Compare } from "../../components/ui/compare";
 
 function About() {
   return (
-    <div className="about__container flex w-full bg-zinc-900">
+    <div className="about__container flex w-full bg-black">
 
     <div className="w-3/4 h-[60vh] px-1 md:px-8 flex items-center justify-center [perspective:800px] [transform-style:preserve-3d]">
     <div
