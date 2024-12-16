@@ -4,7 +4,7 @@ import { MaskContainer } from "../../components/ui/svg-mask-effect";
 export function SVGMaskEffectDemo() {
   return (
     (<div
-      className="h-[20rem] w-full flex items-center justify-center bg-bgblack overflow-hidden">
+      className="h-[20rem] w-screen flex items-center justify-center bg-bgblack overflow-hidden">
       <MaskContainer
         revealText={
           <p

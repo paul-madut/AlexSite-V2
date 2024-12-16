@@ -6,7 +6,7 @@ function Hero() {
   const words = ["Look", "Feel", "Be"];
 
   return (
-    <div class="vid h-full overflow-hidden">
+    <div className="vid h-full overflow-hidden">
       <div className="hero__text top-[40%] left-1/2 absolute ">
         <h1 className="text-9xl text-white font-bold text-center absolute top-[40%] left-1/2 transform -translate-x-1/2 -translate-y-[40%] flex  w-full  items-center justify-center ">
           <FlipWords className="text-bgwhite" words={words} />{" "}
@@ -21,11 +21,11 @@ function Hero() {
       </div>
 
       <video
-        class=" bg-fixed -z-10 bottom-12 right-0 min-w-full h-1/2  w-full object-cover"
+        className=" bg-fixed -z-10 bottom-12 right-0 min-w-full h-1/2  w-full object-cover"
         autoplay
         muted
         loop
-        plays-inline
+        plays-inline = "true"
         id="myVideo"
       >
         <source src="/videos/Hero__vid.mp4" type="video/mp4" />

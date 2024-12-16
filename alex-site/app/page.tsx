@@ -16,8 +16,8 @@ export default function Home() {
       <Navbar />
       <Hero /> 
       <SVGMaskEffectDemo />
-      <About />
       <Testimonials />
+      <About />
      
     </div>
       </body>
