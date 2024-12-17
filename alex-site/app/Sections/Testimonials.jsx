@@ -40,7 +40,14 @@ function Testimonials() {
     },
   ];
   
-  return <AnimatedTestimonials testimonials={testimonials} />;
+  return(
+
+    <div className="bg-bgblack">
+
+
+    <AnimatedTestimonials testimonials={testimonials} />;
+    </div>
+  ) 
 }
 
 export default Testimonials

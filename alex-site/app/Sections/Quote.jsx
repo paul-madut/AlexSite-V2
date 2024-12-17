@@ -1,23 +1,26 @@
 "use client";
 import { MaskContainer } from "../../components/ui/svg-mask-effect";
+import React from "react";
 
-export function SVGMaskEffectDemo() {
+function Quote() {
   return (
-    (<div
-      className="h-[20rem] w-screen flex items-center justify-center bg-bgblack overflow-hidden">
+    <div className="h-[20rem] w-full flex items-center justify-center  overflow-hidden bg-bgblack">
       <MaskContainer
         revealText={
-          <p
-            className="max-w-4xl mx-auto text-white text-center  text-4xl font-bold">
-            <span className="text-6xl">"</span>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, placeat sapiente! Corporis deleniti dolorum exercitationem saepe totam sit fugit laborum eum facere!
-            <span className="text-6xl">"</span><br /><br />  - Alex L Dory
+          <p className="max-w-4xl mx-auto text-bgwhite text-center text-4xl font-bold ">
+            "The only bad workout is the one you didn’t do. Stay consistent, and
+            the results will follow."
           </p>
         }
-        className="h-[20rem] rounded-md">
-        <span className="text-red text-6xl">"</span> If all else fails the <span className="text-red">scratch</span>
-        and <span className="text-red">sniff</span> will never lead you astray.<span className="text-red text-6xl">"</span> - Alex <span className="text-red">L</span> Dory
+        className="h-[20rem] bg-blue-400 rounded-md"
+      >
+        "The only <span className="text-red">bad workout</span> is the one you{" "}
+        <span className="text-red">didn’t do</span>. Stay{" "}
+        <span className="text-red">consistent</span>, and the results will
+        follow."
       </MaskContainer>
-    </div>)
+    </div>
   );
 }
+
+export default Quote;

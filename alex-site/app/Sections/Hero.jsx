@@ -1,5 +1,6 @@
 "use client";
 import { FlipWords } from "@/components/ui/flip-words";
+import { Button } from "@/components/ui/moving-border";
 import React from "react";
 
 function Hero() {
@@ -17,12 +18,12 @@ function Hero() {
       <div className="hero__cta top-[50%]  w-full justify-center align-middle items-center absolute flex flex-col ">
         <h2 className="text-bgwhite text-6xl relative"> Become better today!</h2>
        
-        <button className="m-2 p-4 px-8 text-6xl w-1/6 rounded-xl b-1 border-b-black text-white bg-red">Sign up</button>
+        <Button borderRadius="1.75rem" className=" text-white text-xl bg-red">Sign up</Button>
       </div>
 
       <video
         className=" bg-fixed -z-10 bottom-12 right-0 min-w-full h-1/2  w-full object-cover"
-        autoplay
+        autoPlay
         muted
         loop
         plays-inline = "true"

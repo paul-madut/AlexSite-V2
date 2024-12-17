@@ -42,11 +42,11 @@ export const MaskContainer = ({
       ref={containerRef}
       className={cn("h-screen relative", className)}
       animate={{
-        backgroundColor: isHovered ? "var(--slate-900)" : "var(--white)",
+        backgroundColor: isHovered ? "var(--neutral-900)" : "var(--bgblack)",
       }}
     >
       <motion.div
-        className="w-full h-full flex items-center justify-center text-6xl absolute bg-black bg-grid-white/[0.2] text-white [mask-image:url(/mask.svg)] [mask-size:40px] [mask-repeat:no-repeat]"
+        className="w-full h-full flex items-center justify-center text-6xl absolute bg-black linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px) text-white [mask-image:url(/mask.svg)] [mask-size:40px] [mask-repeat:no-repeat]"
         animate={{
           maskPosition: `${mousePosition.x - maskSize / 2}px ${
             mousePosition.y - maskSize / 2
